@@ -7,7 +7,7 @@
 #define BIT_TO_CHANGE_1 5
 #define BIT_TO_CHANGE_2 6
 
-void swap_bit(unsigned char* ptr, int b1, int b2){
+void swap_bit(unsigned char* ptr, int b1, int b2){ // Test
   unsigned char bit1 = (*ptr & (1 << BIT_TO_CHANGE_1));
   unsigned char bit2 = (*ptr & (1 << BIT_TO_CHANGE_2));
 
