@@ -1,0 +1,3 @@
+C:/Users/User/Desktop/cpp unik/lab5/build/CMakeFiles/a.dir
+C:/Users/User/Desktop/cpp unik/lab5/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Desktop/cpp unik/lab5/build/CMakeFiles/ZERO_CHECK.dir
