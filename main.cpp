@@ -1,4 +1,3 @@
-#include <bitset>
 #include <iostream>
 #include <fstream>
 
@@ -41,7 +40,7 @@ int main (int argc, char *argv[]) {
   f >> x >> epsilon;
   f.close();
 
-  double y = sumOfSeries(x, epsilon, &epsilon_n, &n);
+  double y = sumOfSeries(x, epsilon, epsilon_n, n);
 
   std::cout << "y = " << y << "; n = " << n << "; epsilon_n = " << epsilon_n << "; x = " << x << "; epsilon = " << epsilon << "\n";
 

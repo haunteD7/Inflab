@@ -1,6 +1,6 @@
 #include <math.h>
 
-double sumOfSeries(double x, double min_epsilon, double* epsilon_ptr, int* n_ptr) {
+double sumOfSeries(double x, double min_epsilon, double& epsilon_ptr, int& n_ptr) {
   bool enough_precision = false;
 
   double sum = 0;
@@ -13,8 +13,8 @@ double sumOfSeries(double x, double min_epsilon, double* epsilon_ptr, int* n_ptr
 
     if(min_epsilon >= summand) enough_precision = true;
   }
-  *epsilon_ptr = summand;
-  *n_ptr = n;
+  epsilon_ptr = summand;
+  n_ptr = n;
 
   return sum;
 }
